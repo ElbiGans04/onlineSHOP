@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html id="home">
+    <head>
+        <title>Project Olshop</title>
+        <link rel="stylesheet" href="css/detail.css">
+        <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    </head>
+
+    <body>
+
+    <!-- Awal navigasi -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top "  >
+        <a class="navbar-brand page-scroll" href="#elbi">Elbi Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+            <a class="nav-link page-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+    
+            <li class="nav-item">
+            <a href="#detailProduct" class="nav-link page-scroll">Detail</a>
+            </li>
+    
+            <li class="navitem">
+            <a href="#rekomendasi" class="nav-link page-scroll">Recomendasi</a>
+            </li>
+    
+            <li class="nav-item dropdown">
+            <div class="dropdown">
+            <a class="btn btn-dark dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sosial Media
+            </a>
+            
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href='http://www.facebook.com/rhafael.bijaksana04'>
+                    <i class="fab fa-facebook-square"></i>  Facebook</a>
+                <a class="dropdown-item" href="http://www.instagram.com/rhafaelbijaksana">
+                    <i class="fab fa-instagram-square"></i>  Instagram</a>
+                <a class="dropdown-item" href="#">
+                    <i class="fab fa-youtube-square"></i>  youtube</a>
+            </div>
+            </div>
+        </li>
+    
+        </ul>
+        </div>
+    </nav>
+    
+    <!-- akhir navigasi -->
+
+
+    <section id="detail" class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5  satu mt-2">
+                    <p class="text-dark mb-1" ><a href="#" class="text-decoration-none text-dark halaman">Home</a><a href="#" class="text-decoration-none text-dark halaman"> / Tempat</a><a href="#" class="text-decoration-none text-dark halaman"> / baju</a></p>
+                    <div class="rhafael">
+                        <div class="result d-inline-blovk" id="result"></div>
+                        <img src="img/1.jpg" alt="halo" class="test text-center" id="utama">
+                    </div>
+                    <div class="gambarLain mt-3 mb-3 text-center">
+                        <a href="#"><img src="img/previous.png" alt="previous" id="previous"></a>
+                            <div class="itemGambarLain d-inline ml-3 mr-3" id="listGambarUtama">
+                            
+                            </div>
+                        <a href="#"><img src="img/next.png" alt="next" id="next"></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mt-4">
+                    <div class="atas">
+                        <div class="result" id="result"></div>
+                        <p class="h2" id="nama">Sepatu apake </p>
+                        <span class="tambahan">
+                            <a href="#"><img src="img/lope.png" alt="lope" id="loveWhislist"></a>
+                            <a href="#"><img src="img/share.png" alt="share" id="share"></a>
+                        </span>
+                        <div class="star">
+                            <img src="img/rating.png" alt="star">
+                            <img src="img/rating.png" alt="star">
+                            <img src="img/rating.png" alt="star">
+                            <img src="img/rating.png" alt="star">
+                            <img src="img/rating.png" alt="star">
+                        </div>
+                        <p class="h4 mb-0" id="harga">2.000.000</p>
+                        <div class="mt-2 mb-0">
+                            <label for="merek" class="d-inline font-weight-bold">Merek : </label>
+                            
+                        </div>
+                        <div>
+                            <label for="kategori" class="font-weight-bold">Kategori : </label>
+                            
+                        </div>
+                        <div class="warna font-weight-bold">
+                            <p class="d-inline">Warna : </p>
+                            
+                        </div>
+                        <div class="jumlah">
+                            <p class="font-weight-bold d-inline">Jumlah : </p>
+
+                           
+                        </div>
+                        <div class="ukuran mt-3">
+                            <p class="font-weight-bold">Ukuran : </p>
+
+                            
+                        </div>
+                        <div class="tombol">
+                            <button class="btn btn-danger mr-2">Beli sekarang</button>
+                            <button class="btn btn-danger ">CheckOut</button>
+                        </div>
+
+                        <div class="isiContent">
+                            <p class="merek" id="merek"></p>
+                            <p class="kategori" id="kategori">Ketegori : test 1 , test 2</p>
+                            <div class="dalem mt-1">
+                                <p class="judulWarna mb-2" id="judulWarna">Hitam kali </p>
+                                <div id="warna">
+                                    
+                                </div>
+
+                            </div>
+                            <div class="pesanan ">
+                                <button type="button" class="btn btn-outline-secondary btn-sm d-inline ml-2" id="jumlahTambah">+</button>
+                                <p class="d-inline ml-2" id="jumlahHasil">1</p>
+                                <button type="button" class="btn btn-outline-secondary btn-sm d-inline ml-2" id="jumlahKurang">-</button>
+                            </div>
+                            <div class="ukuran mt-3" id="ukuran">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="row mt-5 gambarLain" id="detailProduct">
+                <div class="col-sm-12">
+                    <p class="h2 mb-3">Detail Product</p>
+                    <hr>
+                    <div class="detail-product" id="deskripsi" style="max-height: 500px; overflow: auto; text-align: justify;">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis aperiam maxime laboriosam nihil odio doloribus et itaque a, in numquam. Odit nostrum accusamus excepturi eaque ab hic, beatae recusandae corrupti?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+<!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Share</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="list-group">
+            <a class="dropdown-item" href='http://www.facebook.com/rhafael.bijaksana04'>
+                <i class="fab fa-facebook-square"></i>  Facebook</a>
+            <a class="dropdown-item" href="http://www.instagram.com/rhafaelbijaksana">
+                <i class="fab fa-instagram-square"></i>  Instagram</a>
+            <a class="dropdown-item" href="#">
+                <i class="fab fa-youtube-square"></i>  youtube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Recomendasi Produk -->
+
+    <section class="rekomendasiProduk mt-5" id="rekomendasi">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="h2">Recomendasi</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+
+           
+                    <div class="col-sm-2">
+                        <div class="card mt-3">
+                            <a href="detail.html" class="text-decoration-none text-dark cardRekomendasi" style="min-height: 100px;">
+                            <div class="gambar">
+                                <img src="img/1.jpg" class="card-img-top" alt="...">
+                                <i class="far fa-heart love"></i>
+                            </div>
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item">
+                                    <p >Adidas Special Edition</p>
+                                    <p class="text-danger mb-1 h6">2.000.000</p>
+                                    <p class="hargaCoret">4.000.000</p>
+                                </li>
+                            </ul>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir Recomendasi Product -->
+
+
+
+    <!-- Komentar -->
+    <section class="komentar mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="h2">Komentar</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12  mt-3">
+                    <div class="media mt-3">
+                        <img src="img/profil/1.jpg" class="mr-3 bulat" alt="profil" class="profil">
+                        <div class="media-body">
+
+                            <p class="h5 text-left namaPelanggan">Nama Pelanggan</p>
+
+
+                            <div class="tanggal mb-2" id="tanggal">
+                                <p class="">16 maret 2020</p>
+                            </div>
+
+                            <div class="jumlahKomentar mb-4">
+                                <img src="img/like.png" alt="" class="d-inline mr-1" id="likeKomentar">
+                                    <p class="d-inline mr-1" id="jumlahLikeKomentar">0</p>
+                                <img src="img/dislike.png" alt="" class="d-inline mr-1" id="dislikeKomentar">
+                             </div>
+
+
+                            <div class="d-inline mb-5" style="text-align: justify;" id="tempatIsiKomentar">
+                                <p id="isiKomentar"></p>
+                                
+                            </div>
+                            
+
+                            <!-- ImageList Awal -->
+
+
+                            <div class="gambarKomentar" style="">
+                                <img src="img/1.jpg" alt="" class="">
+                                <img src="img/1.jpg" alt="" class="">
+                                <img src="img/1.jpg" alt="" class="">
+                                <img src="img/1.jpg" alt="" class="">
+                            </div>
+                        
+
+                            <!-- Akhir Image -->
+
+
+
+
+
+                            <!-- Awal  -->
+
+
+                            <div class="balasKomentar">
+                                <div class="media balasKomentar mb-5">
+                                    <img src="img/profil/1.jpg" class="mr-3" alt="profil" style="width: 40px;height: 40px;">
+                                    <div class="media-body">
+                                        <p class="h5 text-left namaPelanggan mb-0">Nama Pelanggan</p>
+
+                                        <div class="tanggal mb-2" id="tanggal">
+                                            <p class="">16 maret 2020</p>
+                                        </div>
+
+                                        <div class="jumlahBalasKomentar mb-4">
+                                            <img src="img/like.png" alt="" class="d-inline mr-1" id="likeBalasKomentar">
+                                                <p class="d-inline mr-1" id="jumlahLikeKomentar">0</p>
+                                            <img src="img/dislike.png" alt="" class="d-inline mr-1" id="dislikeBalasKomentar">
+                                            <a href="#" id="balasKomentarInput">Balas Komentar</a>
+                                        </div>
+
+
+                                        <div class="d-inline mb-5" style="text-align: justify;" id="tempatIsiKomentar">
+                                            <p id="balasKomentar"></p>
+                                            
+                                        </div>
+
+                                        <div class="input-group input-group-sm mb-3" style="display: none;" id="inputBalasKomentar" >
+                                            <input type="text" class="form-control" placeholder="Masukan Komentar" aria-label="Masukan Komentar" aria-describedby="button-addon2">
+                                            <div class="input-group-append">
+                                              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Kirim</button>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Akhir -->
+
+                            
+                            <div class="input-group input-group-sm mb-3" >
+                                <input type="text" class="form-control" placeholder="Masukan Komentar" aria-label="Masukan Komentar" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Kirim</button>
+                                </div>
+                            </div>
+                         
+                        </div> 
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- akhir komentar -->
+
+
+
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/js/bootstrap.min.js" ></script>
+    <script src="js/script2.js"></script>
+    <script src="js/fontawsome.js"></script>
+</html>

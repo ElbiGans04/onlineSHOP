@@ -1,0 +1,136 @@
+[
+    {
+        "id" : 1,
+        "nama_produk" : "Nike Special Edition",
+        "merek" : "Adidas",
+        "harga" :  "2000000",
+        "discount" : null,
+        "img" : "1.jpg",
+        "deskripsi" : "Originally made for basketball courts in the '70s. Championed by hip hop royalty in the '80s. An icon on the streets of today. When you think back to the first basketball shoes, amazing names come to mind. Forum, Rivalry, Streetball, Americana and Top Ten are on our shortlist of on-court greatness. And today we bring our iconic adidas Superstar back to its roots with a design that's inspired by a vintage B-ball favourite: The Americana. The red, white and blue colourway remains, just minus the hi-top. This shoe is just one out of our special Starting Five pack. Choose your favourite, or build your wall of fame.",
+        "kategori" : "anak muda , pria, sekolah",
+        "warna" : {
+            "1" : {
+                "warna" : "yellow",
+                "src" : "1.jpg"
+            },
+            "2" :{
+                "warna" : "black",
+                "src" : "2.jpg"
+            },
+            "3" : {
+                "warna" : "blue",
+                "src" : "3.jpg"
+            },
+            "4" : {
+                "warna" : "green",
+                "src" : "4.jpg"
+            }
+
+        },
+        "ukuran" : [40 , 41 , 42]
+    },
+
+    {
+        "id" : 2,
+        "nama_produk" : "Nike V2345678910",
+        "merek" : "Adidas",
+        "harga" : "3000000",
+        "discount" : 90,
+        "img" : "2.jpg",
+        "deskripsi" : "We make a good team, my adidas and me. Always on point, this slip-on Superstar shoe is back like never before. Follow in the footsteps of '80s hip hop royalty and do the New York b-boy look entirely your way. However that plays out – chic blazer suits, scruffy jeans and tee – you'll make it look easy in this cool, casual remake. Ahead of the 2020 All-Star Weekend, we've rebuilt the shoe with a fat tongue for extra slam dunk. Step into the future of no fuss comfort without sacrificing on old-school class.",
+        "kategori" : "orang tua , pria, kerja",
+        "warna" : {
+            "1" : {
+                "warna" : "hehe",
+                "src" : "6.jpg"
+            },
+            "2" :{
+                "warna" : "black",
+                "src" : "5.jpg"
+            },
+            "3" : {
+                "warna" : "blue",
+                "src" : "3.jpg"
+            },
+            "4" : {
+                "warna" : "green",
+                "src" : "2.jpg"
+            }
+
+        }
+    },
+
+    {
+        "id" : 3,
+        "nama_produk" : "Nike V3",
+        "merek" : "Adidas",
+        "harga" : 4000000,
+        "discount" : 80,
+        "img" : "3.jpg",
+        "deskripsi" : "These skateboard-inspired shoes salute life on the deck with a classic vulcanised look. Built for shredding around town, they deliver versatility and comfort with a rubber outsole and lightweight EVA sockliner. Leather-like 3-Stripes on the canvas upper provide a signature finish.",
+        "kategori" : "anak muda , wanita, sekolah",
+        "warna" : {
+            "1" : "3.jpg",
+            "2" : "4.jpg",
+            "3" : "5.jpg",
+            "4" : "6.jpg"
+
+        }
+    },
+
+    {
+        "id" : 4,
+        "nama_produk" : "Nike V4",
+        "merek" : "Adidas",
+        "harga" : 5000000,
+        "discount" : 70,
+        "img" : "4.jpg",
+        "deskripsi" : "Originally made for basketball courts in the '70s. Championed by hip hop royalty in the '80s. An icon on the streets of today. When you think back to the first basketball shoes, amazing names come to mind. Forum, Rivalry, Streetball, Americana and Top Ten are on our shortlist of on-court greatness. And today we bring our iconic adidas Superstar back to its roots with a design that's inspired by a vintage B-ball favourite: The Americana. The red, white and blue colourway remains, just minus the hi-top. This shoe is just one out of our special Starting Five pack. Choose your favourite, or build your wall of fame.",
+        "kategori" : "anak remaja , pria, sekolah",
+        "warna" : {
+            "1" : "4.jpg",
+            "2" : "5.jpg",
+            "3" : "6.jpg",
+            "4" : "1.jpg"
+
+        }
+    },
+
+    {
+        "id" : 5,
+        "nama_produk" : "Nike V5",
+        "merek" : "Adidas",
+        "harga" : 6000000,
+        "discount" : 60,
+        "img" : "5.jpg",
+        "deskripsi" : "We make a good team, my adidas and me. Always on point, this slip-on Superstar shoe is back like never before. Follow in the footsteps of '80s hip hop royalty and do the New York b-boy look entirely your way. However that plays out – chic blazer suits, scruffy jeans and tee – you'll make it look easy in this cool, casual remake. Ahead of the 2020 All-Star Weekend, we've rebuilt the shoe with a fat tongue for extra slam dunk. Step into the future of no fuss comfort without sacrificing on old-school class.",
+        "kategori" : "wanita , pria, sekolah",
+        "warna" : {
+            "1" : "5.jpg",
+            "2" : "6.jpg",
+            "3" : "1.jpg",
+            "4" : "2.jpg"
+
+        }
+    },
+
+    {
+        "id" : 6,
+        "nama_produk" : "Nike V6",
+        "merek" : "Adidas",
+        "harga" : 7000000,
+        "discount" : 50,
+        "img" : "6.jpg",
+        "deskripsi" : "These skateboard-inspired shoes salute life on the deck with a classic vulcanised look. Built for shredding around town, they deliver versatility and comfort with a rubber outsole and lightweight EVA sockliner. Leather-like 3-Stripes on the canvas upper provide a signature finish.",
+        "kategori" : "wanita , pria, kerja",
+        "warna" : {
+            "1" : "6.jpg",
+            "2" : "1.jpg",
+            "3" : "2.jpg",
+            "4" : "3.jpg"
+
+        }
+    }
+
+    
+]

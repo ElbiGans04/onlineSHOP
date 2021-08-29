@@ -1,0 +1,222 @@
+
+.detail {
+    margin-top: 70px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+
+.detail .container .row .satu .utama {
+    border:2px solid rgba(0, 0, 0, .2);
+}
+
+
+.detail .container .row .satu .gambarLain img:hover {
+    border: 2px solid rgba(0, 0, 0, .3);
+}
+
+.detail .container .row .satu .gambarLain {
+    text-align: center;
+}
+.detail .container .row .satu .gambarLain img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.detail .container .row .atas {
+    position: relative;
+    min-height: 450px;
+}
+.detail .container .row .atas .tombol {
+    position: absolute;
+    bottom: 0px;
+}
+
+.detail .container .row .tambahan img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+    float: right;
+}
+
+.detail .container .row .atas .star img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 0;
+}
+
+.detail .container .row .atas .warna{
+    margin-top: -5px;
+}
+
+
+.detail .container .row .atas .jumlah {
+    margin-top: 90px;
+}
+
+.detail .container .row .atas .ukuran .itemUkuran {
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 5px 10px;
+}
+
+.detail .container .row .atas .ukuran .itemUkuran:hover {
+    border: 1px solid rgba(0, 0, 0, .8);
+}
+
+.detail .container .row .atas .tambahan {
+    position: relative;
+    top: -50px;
+    right: 0;
+}
+
+
+
+
+/* Awal IsiKonten */
+
+.detail .container .row .atas .isiContent {
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+
+.detail .container .row .atas .isiContent img {
+    width: 50px;
+    height: 50px;
+}
+
+.detail .container .row .atas .isiContent p{
+    margin-bottom: 0;
+}
+
+.detail .container .row .atas .isiContent .pesanan {
+    margin-top: 30px;
+    margin-left: -8px;
+}
+
+
+/* Akhir IsiKonten */
+
+.komentar .container .row img {
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+
+.komentar .container .row .media .media-body .jumlahKomentar {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.komentar .container .row .media .media-body .jumlahKomentar img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+.komentar .container .row .media .media-body .balasKomentar {
+    margin-top: 50px;
+}
+
+
+.balasKomentar {
+    position: relative;
+}
+
+.balasKomentar .media .media-body .jumlahBalasKomentar img {
+    width: 30px;
+    height: 30px;
+}
+
+.balasKomentar .media .media-body .jumlahBalasKomentar {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+
+#isiKomentar {
+    margin-top: 20px;
+}
+
+
+
+
+/* Awal Rekomendasi */
+
+.rekomendasiProduk .container .row .card .gambar .love{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+
+/* Akhir Rekomendasi  */
+
+
+/* Class */
+
+.bulet {
+    border-radius: 50%;
+}
+
+.active {
+    opacity: .5;
+    border: 2px solid rgba(0, 0, 0, .3);
+}
+
+.fix {
+    overflow: auto;
+  }
+
+.hargaCoret {
+    font-size: 12px;
+    text-decoration: line-through;
+
+}
+
+
+.cardRekomendasi:hover {
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, .2);
+    
+}
+
+
+/* Akhir Class */
+
+.test{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+}
+.img-zoom {
+    position: absolute;
+    border: 1px solid rgba(255,255, 255, 1);
+    width: 50px;
+    height: 50px;
+}
+
+.result{
+    display: none;
+    z-index: 1000;
+    top: 0px;
+    right: -500px;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+}
+
+.rhafael {
+    position: relative;
+}
+
+/* <div class="rhafael">
+                        <img src="img/1.jpg" alt="halo" class="test d-inline-block" id="test">
+                        <div class="result d-inline-blovk" id="result"></div>
+                    </div> */

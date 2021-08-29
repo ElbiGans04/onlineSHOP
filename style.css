@@ -1,0 +1,19 @@
+.jumbotron {
+    max-height: 500px;
+}
+
+
+.konten .container .row{
+    margin-top: 30px;
+}
+
+.card:hover {
+    border: 2px solid rgba(0, 0, 0, .3);
+}
+
+.flashsale .grup {
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+
